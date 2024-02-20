@@ -10,7 +10,7 @@ function ProductOne({productone}) {
    
    
     const handleToDetailes = () => {
-      navigate( `/siriaherbs/ProductDetailsPage/${rootId} `, {
+      navigate( `/ProductDetailsPage/${rootId} `, {
         state: {
           item: productone
          

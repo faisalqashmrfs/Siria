@@ -25,7 +25,7 @@ const BrandsDisplay = ({ brandInfo }) => {
   const rootId = idstring(_id);
   console.log(rootId)
   const handleToDetailes = () => {
-    navigate( `/siriaherbs/ProductDetailsPage/${rootId} `, {
+    navigate( `/ProductDetailsPage/${rootId} `, {
       state: {
         item: brandInfo.products.name,
         previousProduct: _id // تمرير الـ product السابقة ضمن previousProduct

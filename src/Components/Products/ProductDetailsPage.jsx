@@ -15,7 +15,7 @@ const ProductDetailsPage = () => {
       return String(_id).toLowerCase().split(" ").join("")
     }
     const handleToDetailes = () => {
-      navigate( `/siriaherbs/ProductDetailsPage/${rootId} `, {
+      navigate( `/ProductDetailsPage/${rootId} `, {
         state: {
           item: detailes
          
@@ -67,7 +67,7 @@ const ProductDetailsPage = () => {
   return (
     <div>
       <div className="breadcrumb">
-        <span>Home »<Link className='link-page' to="/siriaherbs/Products">Products</Link> » {detailes.name}</span>
+        <span>Home »<Link className='link-page' to="/Products">Products</Link> » {detailes.name}</span>
       </div>
     <div className="product-details-page">
    
