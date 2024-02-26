@@ -6,9 +6,6 @@ import img3 from "./assest/images/f.png"
 import img4 from "./assest/images/ed.png"
 import img5 from "./assest/images/ff.png"
 import img6 from "./assest/images/fff.png"
-/* import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
-import InputGroup from 'react-bootstrap/InputGroup'; */
 
 const Footer = () => {
   return (
